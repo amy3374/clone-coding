@@ -1,0 +1,55 @@
+<!-- css// states -->
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>The Nico Times</title>
+        <link href="styles.css" rel="stylesheet" />
+
+        <style> 
+            body {
+                height: 1000vh; 
+                margin: 50px;
+            }
+            button:hover {
+                background-color: tomato;
+            }
+           
+            a:visited {
+                color: tomato;
+            }
+            a:hover {
+                color:teal;
+            }
+            a:focus {
+                color: turquoise;
+            }
+            form {
+                border: 1px solid salmon;
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+            form:focus-within{
+                border-color: seagreen;
+            }
+            form:hover input:focus{
+                background-color: sienna;
+            }
+          
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <a href="https://apple.com">Go to apple</a>
+            <button>hello</button>
+            <input type="text" />
+            <input type="text" />
+        </div>
+        <form>
+            <input type="text" name="" id="" />
+            <input type="text" name="" id="" />
+            <input type="text" name="" id="" />
+        </form>
+    </body>
+</html>

@@ -1,0 +1,42 @@
+<!-- combinators -->
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>The Nico Times</title>
+        <link href="styles.css" rel="stylesheet" />
+
+        <style> 
+            body {
+                height: 1000vh; 
+                margin: 50px;
+            }
+            span {
+                background-color: yellowgreen;
+                padding:5px;
+                border-radius: 10px;
+            }
+            p span {
+                color: white;
+            }
+            p + span {
+                text-decoration: underline;
+            }
+            p ~ address {
+                color: blue;
+            }
+          
+        </style>
+
+    </head>
+    <body>
+        <div>
+            
+            <p>
+                Lorem ipsum dolor sit amet cosectetur adipisicing elit.
+                Quod commodi e sequi ipsam diod dolorem. <span>inside</span>
+            </p>
+            <span>hello</span>
+            <address>hello</address>
+        </div>
+    </body>
+</html>
